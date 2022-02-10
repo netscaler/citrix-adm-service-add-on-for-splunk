@@ -1,0 +1,10 @@
+owner: ioannist
+pipeline:
+  citool: ''
+  releaseBranch: ''
+  sonarqube: null
+productionUse: CustomerCurrent
+repoType: Service (Cloud)
+reporting:
+  product: Analytics
+  teamname: ADM
