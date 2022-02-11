@@ -1,6 +1,6 @@
 # Citrix Analytics Add-on for Splunk (Preview)
 
-Citrix ADM Service Add-on for Splunk enables you to convert to CIM (Common Information Model) compatible format the security events coming in from ADM Service splunk client. Thus, it offers a product agnostic event source for further consumption by you dashboards and analytics.
+Citrix ADM Service Add-on for Splunk enables you to convert to CIM (Common Information Model) compatible format the security events coming in from ADM Service splunk client. It offers a product agnostic event source for further consumption by your dashboards and analytics.
 
 To download the add-on, go to <a href="https://splunkbase.splunk.com/app/TO_BE_ADDED/" target="_blank">Splunk base</a>. Install the add-on on your Splunk Heavy Forwarder/Splunk Cloud Inputs Data Manager.
 
