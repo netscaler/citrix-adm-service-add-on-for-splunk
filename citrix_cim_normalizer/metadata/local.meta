@@ -1,0 +1,71 @@
+[app/ui]
+version = 8.1.1
+modtime = 1613987180.218424000
+
+[app/launcher]
+version = 8.1.1
+modtime = 1613987180.219856000
+
+[eventtypes/bot_attack_eventtype]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1613990522.248796000
+
+[tags/eventtype%3Dbot_attack_eventtype]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1613990522.250896000
+
+[props/bot_sourcetype/LOOKUP-action_type_dummy]
+access = read : [ * ], write : [ * ]
+owner = nobody
+version = 8.1.1
+modtime = 1614070105.649860000
+
+[transforms/action_type]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614070163.081593000
+
+[lookups/action_type.csv]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614070179.392679000
+
+[savedsearches/BOT%20Alerts]
+owner = admin
+version = 8.1.1
+modtime = 1614601321.514170000
+
+[eventtypes/waf_attack_eventtype]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614609400.034310000
+
+[tags/eventtype%3Dwaf_attack_eventtype]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614609400.036664000
+
+[app/install/install_source_checksum]
+version = 8.1.1
+modtime = 1617709640.574940000
+
+[inputs/http%3A%2F%2Fhec_9003]
+access = read : [ admin ], write : [ admin ]
+export = none
+owner = admin
+version = 8.1.1
+modtime = 1617710223.359063000

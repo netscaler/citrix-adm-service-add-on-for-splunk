@@ -1,0 +1,10 @@
+action_type_desc,action
+None,allowed
+Allow,allowed
+Rate Limit,allowed
+Redirect,allowed
+Captcha,allowed
+Log,allowed
+Reset,blocked
+Mitigation,blocked
+Drop,blocked

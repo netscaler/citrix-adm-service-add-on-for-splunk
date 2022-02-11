@@ -1,0 +1,6 @@
+bot_severity_desc,severity
+Critical,critical
+High,high
+Medium,medium
+Low,low
+None,informational
