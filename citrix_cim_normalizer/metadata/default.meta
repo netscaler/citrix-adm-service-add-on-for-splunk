@@ -1,30 +1,29 @@
-
 # Application-level permissions
 
 []
-access = read : [ * ], write : [ admin, power ]
+access = read : [ * ], write : [ * ]
 
 ### EVENT TYPES
 
 [eventtypes]
+access = read : [ * ], write : [ * ]
 export = system
 
 
 ### PROPS
-
 [props]
+access = read : [ * ], write : [ * ]
 export = system
-
 
 ### TRANSFORMS
 
 [transforms]
+access = read : [ * ], write : [ * ]
 export = system
 
-
 ### LOOKUPS
-
 [lookups]
+access = read : [ * ], write : [ * ]
 export = system
 
 
@@ -33,3 +32,66 @@ export = system
 [viewstates]
 access = read : [ * ], write : [ * ]
 export = system
+
+[app/ui]
+access = read : [ * ], write : [ * ]
+version = 8.1.1
+modtime = 1613987180.218424000
+
+[app/launcher]
+access = read : [ * ], write : [ * ]
+version = 8.1.1
+modtime = 1613987180.219856000
+
+[eventtypes/bot_attack_eventtype]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1613990522.248796000
+
+[tags/eventtype%3Dbot_attack_eventtype]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1613990522.250896000
+
+[props/bot_sourcetype/LOOKUP-action_type_dummy]
+access = read : [ * ], write : [ * ]
+owner = nobody
+version = 8.1.1
+modtime = 1614070105.649860000
+
+[transforms/action_type]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614070163.081593000
+
+[lookups/action_type.csv]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614070179.392679000
+
+[eventtypes/waf_attack_eventtype]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614609400.034310000
+
+[tags/eventtype%3Dwaf_attack_eventtype]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 8.1.1
+modtime = 1614609400.036664000
+
+[app/install/install_source_checksum]
+access = read : [ * ], write : [ * ]
+version = 8.1.1
+modtime = 1617709640.574940000
