@@ -1,0 +1,6 @@
+severity_type,severity_level
+Critical,CRITICAL
+High,HIGH
+Medium,MEDIUM
+Low,LOW
+None,INFORMATIONAL 
