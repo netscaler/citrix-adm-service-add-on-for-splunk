@@ -1,4 +1,4 @@
-violation_action,action
+violation_action_desc,action
 Not Blocked,allowed
 Transformed,allowed
 Unknown,allowed

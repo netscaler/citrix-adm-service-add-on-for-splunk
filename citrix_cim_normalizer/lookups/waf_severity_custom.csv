@@ -1,4 +1,4 @@
-severity_type,severity_level
+severity_type_desc,severity_level
 Critical,CRITICAL
 High,HIGH
 Medium,MEDIUM
